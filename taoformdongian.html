@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            font-family: sans-serif;
+            background-color: #fff;
+            width : 540px;
+            height: 250px;
+            border : 12px aqua solid;
+            border-top-width: 5px;
+
+        }
+        td {
+            width: 130px;
+            padding: 6px;
+
+        }
+
+
+        .blue {
+            color: blue;
+            text-align: right;
+        }
+        .origane {
+            color: orange
+        }
+        h2 {
+            background-color: red;
+            color: #fff;
+            text-align: center;
+            margin: 0
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4"><h2>SỞ THÍCH CỦA BẠN</h2></td>
+    </tr>
+    <tr>
+        <td class="blue"><label>Họ và tên</label></td>
+        <td colspan="3"><label><input type="name" size = 30px; ></label></td>
+    </tr>
+    <tr>
+        <td class="blue"><label>Email</label></td>
+        <td colspan="3"><label><input type="email" size =20px;></label></td>
+    </tr>
+    <tr>
+        <td class="blue">Sở Thích</td>
+        <td><label class="origane"><input type="checkbox" name="hobbies">Thể Thao</label></td>
+        <td><label class="origane"><input type="checkbox" name="hobbies">Âm Nhạc</label></td>
+        <td><label class="origane"><input type="checkbox" name="hobbies">Đọc sách</label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><label class="origane"><input type="checkbox" name="hobbies">Lướt Web</label></td>
+        <td><label class="origane"><input type="checkbox" name="hobbies">Chơi game</label></td>
+        <td><label class="origane"><input type="checkbox" name="hobbies">Điện Ảnh</label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><label class="origane"><input type="checkbox">Du lịch</label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="3">
+            <input type="submit" name=" name" value="gưỉ  thông tin">
+            <input type="reset" name="name" value="reset">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
